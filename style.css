@@ -92,18 +92,6 @@ nav{
 .container:hover .middle {
     opacity: 0.4;
 }
- /*.larg{
-    height: 200px;
-}
-.small{
-    height: 100px;
-    position: relative;
-    bottom: 100px;
-}  style="position:relative; bottom:100px;" */
-
-
-
-
 #blueBar{
     color: white;
     background-color: mediumblue;
