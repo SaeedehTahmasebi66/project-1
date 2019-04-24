@@ -98,9 +98,10 @@ nav{
     padding: 25px 150px; 
 }
 #dots{
-    font-size: 3px;
+    font-size: 5px;
     color: #858eaf;
 }
+
 #tableArea{
     height: 150px;
     display: flex;
@@ -120,7 +121,7 @@ td{
     height: 40px;
     border-right: 1px solid #efefef;
 }
-footer{
+#commentsArea{
     padding: 15px 150px; 
 }
 form{
