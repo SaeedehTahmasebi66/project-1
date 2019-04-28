@@ -67,14 +67,29 @@ h1{
     background-color: white;
     padding: 25px 150px;
 }
+#whiteSection p{
+    font-size: 12px;
+    color: #727581;
+}
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #whiteSection nav i{
     text-align: left;
-    margin: 10px;
+    margin: 35px;
+    color:rgb(82, 25, 136);
 }
+h4{
+    color: black;
+    font-size: 8px;
+    margin-top: 25px;
+}
+#whiteSection nav i p{
+    font-size: 8px;
+}
+
+
 #lightGreySection{
     background-color: #f3f3f3;
 }
