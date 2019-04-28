@@ -65,7 +65,7 @@ h1{
 /*white section */
 #whiteSection{
     background-color: white;
-    padding: 25px 150px;
+    padding: 25px 200px;
 }
 #whiteSection p{
     font-size: 12px;
@@ -94,64 +94,89 @@ h4{
     background-color: #f3f3f3;
 }
 #myBestWork{
-    padding: 10px 150px;
+    padding: 25px 250px;
+}
+#myBestWork h2{
+    font-family: cursive;
 }
 
 
 /* images area */
 #images{
-    width: 60%;
-    margin: 20px auto;
-    height: 320px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-}
-#images img{
-    width: 150px;
-    height: 150px;
-}
-.container{
-    
+    width: 470px;
+    height: 310px;
+    margin: auto;
     position: relative;
-    margin: 3px;
-    
 }
-.middle{
+#images .large{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+}
+#images .small{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+div#first{
+    top: 0;
+    left: 0;
+}
+div#second{
+    top: 0;
+    left: 160px;
+}
+div#third{
+    top: 0;
+    right: 0;
+}
+div#forth{
+    bottom: 0;
+    left: 0;
+}
+div#fifth{
+    bottom: 0;
+    left: 160px;
+}
+div#sixth{
+    bottom: 0;
+    right: 0;
+}
+.container .middle{
     opacity: 0;
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
-    height: 100%;
     width: 100%;
+    height: 100%;
     background-color: blue;
 }
-.text{
-    color: white;
+#images .container .middle .text{
     position: absolute;
-    top: 16px;
     left: 16px;
+    top: 16px;
+    color: white;
+    line-height: 1px;
+    text-align: left;
 }
-.container:hover .larg {
-    opacity: 0.2;
-}
-  .container:hover .small {
-    opacity: 0.2;
+.container:hover img{
+    opacity: 0.3;
 }
   
 .container:hover .middle {
-    opacity: 0.4;
+    opacity: 0.6;
 }
-
 
 /* blue area */
 #blueBar{
     color: white;
     background-color: mediumblue;
     padding: 25px 150px; 
+    margin-top: 25px;
 }
 #dots{
     font-size: 5px;
