@@ -175,12 +175,15 @@ div#sixth{
 #blueBar{
     color: white;
     background-color: mediumblue;
-    padding: 25px 150px; 
+    padding: 25px 250px; 
     margin-top: 25px;
 }
 #dots{
     font-size: 5px;
     color: #858eaf;
+}
+#dots i{
+    margin: 1px;
 }
 
 
@@ -208,36 +211,48 @@ td{
 
 /* comments area */
 #commentsArea{
-    padding: 15px 150px; 
+    padding: 15px 250px;
+}
+h3{
+    font-family: cursive;
+    font-size: 12px;
 }
 form{
-    padding: 25px 120px;
+    /*padding: 25px 200px;*/
+    width: 380px;
+    height: 180px;
+    margin: 25px auto;
     position: relative;
 }
 input[type="text"], input[type="email"] {
+    width: 180px;
     padding: 2px;
-    opacity: 0.4;
+    border-width: 1px;
+    margin-bottom: 8px;
+    opacity: 0.3;
 }
 input[type="text"]{
     position: absolute;
-    top: 25px;
-    left: 120px;
+    top: 0;
+    left: 0;
 }
 input[type="email"]{
     position: absolute;
-    top: 25px;
-    right: 120px;
+    top: 0;
+    right: 0;
 }
 textarea{
-    margin: 3px 0;
-    opacity: 0.4;
+    width: 374px;
+    height: 125px;
+    margin: 8px 0;
+    opacity: 0.3;
 }
 input[type="submit"] {
     font-size: 5px;
     width: 65px;
     position: absolute;
-    left: 120px;
-    bottom: 25px;
+    left: 0;
+    bottom: 0;
     color: white;
     background-color: blue;
     border: 1px blue solid;
