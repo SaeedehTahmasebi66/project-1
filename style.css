@@ -182,6 +182,9 @@ div#sixth{
     font-size: 5px;
     color: #858eaf;
 }
+.selected{
+    color: white;
+}
 #dots i{
     margin: 1px;
 }

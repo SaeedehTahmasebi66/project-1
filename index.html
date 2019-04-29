@@ -10,6 +10,7 @@
      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous">
       <script src="jquery-3.3.1.min.js"></script>
+      <script src="comments.js"></script>
       <script src="main.js"></script>
 </head>
 
@@ -108,18 +109,20 @@
                 </div>         
             </div> <!--end of images-->
             <div id="blueBar">
-                <p>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae ab
-                 adipisci corporis architecto mollitia odit velit enim, expedita ipsa nam 
-                 eligendi earum alias tempore nostrum distinctio neque. Expedita, veniam.."
-                </p>
-                <p>
-                    - brad pitt
-                </p>
+                <div>
+                    <p id="regard">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae ab
+                    adipisci corporis architecto mollitia odit velit enim, expedita ipsa nam 
+                    eligendi earum alias tempore nostrum distinctio neque. Expedita, veniam.."
+                    </p>
+                    <p id="person">
+                        - Brad Pitt
+                    </p>
+                </div>
                 <div id="dots">
-                 <i class="fas fa-circle" style="color:white;"></i>
-                 <i class="fas fa-circle"></i>
-                 <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle selected" id="firstDot"  onclick="changeTheComment(commentOne);"></i>
+                    <i class="fas fa-circle" id="secondDot" onclick="changeTheComment(commentTwo);"></i>
+                    <i class="fas fa-circle" id="thirdDot" onclick="changeTheComment(commentThree);"></i>
                 </div>
             </div>
             <div id="tableArea">
