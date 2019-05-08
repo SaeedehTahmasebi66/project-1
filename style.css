@@ -220,7 +220,7 @@ h3{
     font-family: cursive;
     font-size: 12px;
 }
-form{
+#form{
     width: 380px;
     height: 180px;
     box-sizing: border-box;

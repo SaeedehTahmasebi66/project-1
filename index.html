@@ -153,14 +153,14 @@
                     reiciendis ipsam?
                 </p>
             </div>
-            <form action="/action_page.php">
-                <input type="text" name="firstname" placeholder="Your Name">
-                <input type="email" name="email" placeholder="Your Email">
+            <div id="form">
+                <input type="text" name="firstname" placeholder="Your Name" id="user_name">
+                <input type="email" name="email" placeholder="Your Email" id="user_email">
                 <br><br>
                 <textarea name="message" placeholder="Your Comment"></textarea>
                 <br><br>
-                <input type="submit" value="Submit">
-            </form>
+                <input type="submit" value="Submit" onclick="sendComment();">
+            </div>
         </section>
         <footer>
             @Lorem ipsum dolor, sit amet consectetur.
