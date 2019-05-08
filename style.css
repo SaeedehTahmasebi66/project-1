@@ -213,25 +213,26 @@ td{
 
 
 /* comments area */
-#commentsArea{
-    padding: 15px 250px;
+#letsTalk{
+    padding: 15px 300px;
 }
 h3{
     font-family: cursive;
     font-size: 12px;
 }
 form{
-    /*padding: 25px 200px;*/
     width: 380px;
     height: 180px;
-    margin: 25px auto;
+    box-sizing: border-box;
+    margin:  auto;
     position: relative;
 }
 input[type="text"], input[type="email"] {
-    width: 180px;
+    width: 185px;
+    height: 26px;
+    box-sizing: border-box;
     padding: 2px;
-    border-width: 1px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     opacity: 0.3;
 }
 input[type="text"]{
@@ -245,14 +246,18 @@ input[type="email"]{
     right: 0;
 }
 textarea{
-    width: 374px;
-    height: 125px;
-    margin: 8px 0;
+    width: 380px;
+    height: 120px;
+    box-sizing: border-box;
+    margin: 10px 0;
     opacity: 0.3;
 }
 input[type="submit"] {
     font-size: 5px;
     width: 65px;
+    height: 14px;
+    box-sizing: border-box;
+    margin-top: 10px;
     position: absolute;
     left: 0;
     bottom: 0;
